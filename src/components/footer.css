@@ -1,0 +1,83 @@
+.copyright {
+  min-height: 5vh;
+  width: 80%;
+}
+.footer-screen {
+  margin-top: 0px;
+  min-height: 30vh;
+  min-width: 100vh;
+  padding: 10px;
+}
+
+.smokewhite {
+  color: rgb(150, 194, 233);
+}
+.smokewhite li::first-letter {
+  color: red;
+  margin-right: 1px;
+}
+.fcontent {
+  min-height: 10vh;
+}
+
+.width {
+  width: 50%;
+}
+.heart {
+  color: red;
+}
+.height1 {
+  min-height: 20vh;
+  font-size: 20px;
+}
+.tarun {
+  color: grey;
+}
+
+@media (max-width: 768px) {
+  .copyright {
+    width: 100%; /* Adjust width for mobile */
+  }
+
+  .footer-screen {
+    min-width: auto; /* Remove min-width for mobile */
+  }
+
+  .width {
+    width: 100%; /* Adjust width for mobile */
+  }
+
+  .height1 {
+    font-size: 16px; /* Reduce font size for mobile */
+  }
+  .foot {
+    font-size: 14px;
+  }
+  .foot1 {
+    font-size: 12px;
+  }
+  /* Add more responsive adjustments as needed */
+}
+
+@keyframes colorChange {
+  0% {
+    color: red; /* Initial color */
+  }
+  25% {
+    color: blue; /* Color change at 25% */
+  }
+  50% {
+    color: green; /* Color change at 50% */
+  }
+  75% {
+    color: orange; /* Color change at 75% */
+  }
+  100% {
+    color: rgb(0, 179, 255); /* Back to the initial color */
+  }
+}
+
+.discord {
+  animation: colorChange 5s infinite; /* 5s is the duration, change as needed */
+  font-size: larger;
+}

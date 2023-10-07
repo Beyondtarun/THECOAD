@@ -1,0 +1,11 @@
+.EventBody {
+  min-height: 60vh;
+  background-color: rgba(68, 171, 236, 0.685);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.EventBody span{
+    font-size: 60px;
+}

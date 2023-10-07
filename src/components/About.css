@@ -1,0 +1,38 @@
+.AboutBody{
+background: #000;
+ min-height: 100vh;   
+}
+.AboutHeading{
+    font-size: 60px;
+    color: white;
+    align-items: center;
+}
+.AboutContent{
+    width: 100%;
+    margin: 20px;
+}
+.AboutContent-text{
+    width: 50vw;
+    word-wrap: break-word;
+    font-size: 22px;
+    text-align: justify;
+}
+.AboutImg{
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+.AboutImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.AboutContent{
+    height: auto;
+}
+.AboutContent-text li:nth-child(odd){
+    color: rgb(108, 122, 122);
+}
+td, th {
+    padding: 10px; /* Adjust the padding value according to your needs */
+}

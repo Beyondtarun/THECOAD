@@ -1,0 +1,136 @@
+.jointitle {
+  /* background: #077aab; */
+  background: linear-gradient(to bottom, #077aab, rgba(68, 171, 236, 0.685));
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.jointitle h2 {
+  margin: 0%;
+  font-size: 50px;
+  color: rgb(47, 47, 47);
+  font-weight: bolder;
+  font-style: italic bold;
+}
+.arrowSymbol {
+  height: 20%;
+  width: 20%;
+  align-self: center;
+}
+.jointitle h1 {
+  font-size: 70px;
+  color: rgb(243, 226, 226);
+  font-weight: bolder;
+  transition: all ease 0.4s;
+}
+
+.jointitle h1:hover {
+  scale: 1.2;
+  color: rgb(250, 214, 165);
+}
+.joinus_body {
+  background-color: rgba(68, 171, 236, 0.685);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+
+}
+.joincontainer {
+  height: 80vh;
+  width: 70vw;
+  padding: 20px;
+  display: flex;
+  border-radius: 20px;
+  background-color: rgb(45, 23, 99);
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  /* overflow: hidden; */
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.605);
+}
+.joinsub {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  color: rgb(0, 228, 253);
+  margin: 5px;
+  padding: 15px;
+  overflow: scroll;
+  word-wrap: break-word;
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: transparent transparent;
+}
+.joinsub::-webkit-scrollbar {
+  width: 0rem; /* Adjust the width as needed */
+}
+
+.joinsub::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.joinsub,
+join::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.joinback {
+  height: 10vh;
+  width:100vw;
+  display: flex;
+  align-items: center;
+  background-color: rgba(68, 171, 236, 0.685);
+   font-size: 30px;
+  padding-left: 40px;
+  color: black;
+  
+}
+/* .joinhome:hover {
+  scale: 1;
+  color: rgb(39, 2, 86);
+  transition: all ease 0.5s;
+} */
+
+.joinform {
+  width: 100%;
+  height: 100%;
+}
+.joinfrom iframe {
+  width: 35vw;
+  height: 75vh;
+}
+.joinsub p {
+  margin-top: 10%;
+  word-wrap: break-word;
+  font-size: 18px;
+}
+.joinsub h1 {
+  text-align: center;
+  font-size: 42px;
+  font-family: cursive;
+}
+
+.joinsub h2 {
+  font-size: 30px;
+  color: rgb(201, 69, 181);
+}
+.joinfaqsection{
+  padding: 15px;
+  background: rgba(68, 171, 236, 0.685);
+}
+.JoinFaq{
+  margin-left: 10px;
+  color: rgb(23, 2, 81);
+  transition: all ease .8s;
+}
+.JoinFaq:hover{
+  color: azure;
+}

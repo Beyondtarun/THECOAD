@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Roboto+Slab&display=swap");
+
+.dancing {
+  font-family: "Dancing Script", cursive;
+}
+
+.family {
+  font-family: "family Raleway";
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.border {
+  border: black 1px solid;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.bg-gray {
+  background-color: rgba(128, 128, 128, 0.651);
+}
+
+.bg-blue {
+  background-color: rgba(0, 0, 204, 0.571);
+}
+.bg-blue1 {
+  background-color: rgba(0, 0, 204, 0.272);
+}
+
+.bg-black {
+  background-color: rgba(0, 0, 0, 0.598);
+}
+
+.bg-black1 {
+  background-color: black;
+}
+
+.mar-top1 {
+  margin-top: 40px;
+}
+
+.white {
+  color: white;
+}
+
+.ls {
+  text-decoration: none;
+}
+
+.bgwhite {
+  background-color: white;
+}
+
+.mar-left {
+  margin-left: 10px;
+}
+
+.pad1 {
+  padding: 24px;
+  font-size: 40px;
+}
+
+.pad3 {
+  justify-self: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition:  0.4s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.black {
+  color: black;
+}
+.justify-even {
+  justify-content: space-evenly;
+}

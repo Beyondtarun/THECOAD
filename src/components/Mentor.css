@@ -1,0 +1,108 @@
+.zero {
+  margin-top: 0%;
+}
+.facultymentors {
+  /* background: black; */
+  background:  #6e58a3;
+  color: white;
+}
+.card {
+  width: 30%;
+  margin: 12px;
+  height: 200px;
+  border-radius: 5px;
+  color: rgb(8, 8, 8);
+  background-color: rgb(172, 202, 232);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.605);
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgb(243, 243, 3);
+}
+
+/* Styling for .card on smaller screens */
+@media (max-width: 768px) {
+  .card {
+    width: 45%; /* Adjust the width as needed for smaller screens */
+    height: auto;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .teachers {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Styling for .team */
+
+/* Styling for .pad2 */
+.pad2 {
+  padding: 20px;
+  font-size: 22px;
+  background-color: rgba(58, 60, 60, 0.509);
+  border-radius: 82px 0px 82px 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.pad2:hover {
+  border: 5px solid;
+  border-color: rgb(255, 34, 0);
+  transition: border-color 0.3s;
+  background-color: black;
+  color: aqua;
+}
+
+/* Styling for .width1 and .width2 */
+.width1 {
+  width: 30%;
+}
+
+.width2 {
+  width: 70%;
+  margin-left: 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for .memberimage */
+.memberimage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px 0px 0px 5px;
+}
+
+/* Styling for .imagediv */
+.imagediv {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .width1,
+  .width2 {
+    width: 100%;
+    height: auto; /* Expand to full width on smaller screens */
+    margin: 0;
+    padding: 2px;
+    font-size: small; /* Remove left and right margins */
+  }
+}
+@media (max-width: 768px) {
+  .pad2 {
+    padding: 10px; /* Reduce padding for mobile */
+    font-size: 18px; /* Reduce font size for mobile */
+    border-radius: 20px; /* Reduce border radius for mobile */
+    margin: 5px; /* Reduce margin for mobile (you can adjust this value) */
+    border: 1px solid black; /* Reduce border width for mobile */
+  }
+}

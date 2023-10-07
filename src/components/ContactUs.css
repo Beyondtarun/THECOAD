@@ -1,0 +1,13 @@
+.form {
+  width: 100vw;
+  min-height: 75vw;
+}
+
+.contactus {
+  color: rgb(34, 34, 150);
+  transition: all ease 0.3s;
+}
+.contactus:hover {
+  scale: 0.8;
+  
+}

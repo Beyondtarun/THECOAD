@@ -1,0 +1,115 @@
+.mainbody {
+  background-color: rgba(5, 5, 248, 0.29);
+  min-width: 100vw;  
+}
+
+
+.container {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 70vh;
+  /* background-color: #000000; */
+  background-image: url("../images/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  height: 100%;   
+}
+
+/* Styling for .toptitle */
+.toptitle {
+  font-size: 24px;
+  color: #000000;
+  padding: 0%;
+}
+.clgtitle{
+  background-color: #33118a83;
+  /* background: white; */
+  
+}
+
+/* Styling for .heading */
+
+
+/* Styling for .subtitle */
+.subtitle {
+  font-size: 88px;
+  width: 50%;
+  height: 50%;
+}
+.tagline{
+  font-size: 24px;
+}
+.tagline2{
+  font-size: 22px;
+}
+
+
+
+/* Styling for .logo */
+.logo {
+  margin-left: 5px;
+}
+
+/* Styling for .topdiv */
+.topdiv {
+  max-width: 100vw;
+  max-height: 100px;
+  color: black;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: white;
+}
+.headerimg {
+  width: 100px;
+  height: auto;
+}
+
+.clglogo {
+  width: 90px;
+  height: 80px;
+}
+.ggsipu {
+  width: 70px;
+  height: auto;
+}
+
+.aicte {
+  width: 70px;
+  height: auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust .container for smaller screens */
+  .container {
+    width: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: none;
+    min-height: auto;
+  }
+
+  /* Adjust .toptitle font size */
+  .toptitle {
+    font-size: 20px;
+  }
+
+  /* Adjust .subtitle width */
+  .subtitle {
+    font-size: 40px; /* Adjust font size for mobile */
+    width: 100%; /* Make it wider for better mobile visibility */
+    height: 100; /* Remove fixed height for mobile */
+    background: #000;
+
+  }
+  .tagline,.tagline2{
+    font-size: 16px;
+  }
+}
