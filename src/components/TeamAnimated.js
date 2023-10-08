@@ -33,7 +33,7 @@ class TeamAnimated extends React.Component {
                 className={`imgBx ${
                   this.state.activeContent === member.id ? "active" : ""
                 }`}
-                style={{ "--i": index + 1 }}
+                style={{ "--i": index + 1}}
                 data-id={member.id}
                 key={member.id}
                 onMouseOver={() => this.handleMouseOver(member.id)}

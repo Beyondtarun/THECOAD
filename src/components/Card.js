@@ -17,7 +17,7 @@ function Card({data}){
               <div className="card-content flex flex-col justify-between">
                 <h2 className="card-name">{item.name}</h2>
                 <h3 className="card-designation">{item.designation}</h3>
-                <p className="card-details">{item.details}</p>
+                {/* <p className="card-details">{item.details}</p> */}
                 <ul className="sci flex justify-center">
                       <li>
                         <a
