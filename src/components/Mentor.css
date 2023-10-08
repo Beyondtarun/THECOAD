@@ -7,7 +7,7 @@
   color: white;
 }
 .card {
-  width: 30%;
+  width: 400px;
   margin: 12px;
   height: 200px;
   border-radius: 5px;
@@ -59,11 +59,11 @@
 
 /* Styling for .width1 and .width2 */
 .width1 {
-  width: 30%;
+  width: 150px;
 }
 
 .width2 {
-  width: 70%;
+  width: 250px;
   margin-left: 15px;
   font-size: 20px;
   display: flex;
@@ -76,7 +76,7 @@
   height: 100%;
   display: block;
   object-fit: cover;
-  border-radius: 5px 0px 0px 5px;
+  /* border-radius: 5px 0px 0px 5px; */
 }
 
 /* Styling for .imagediv */

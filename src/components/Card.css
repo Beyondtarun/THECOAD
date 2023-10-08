@@ -1,0 +1,104 @@
+.Card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 20px;
+  color: black;
+}
+
+.Card {
+  width: 250px;
+  height: 350px;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.605);
+  margin: 10px;
+  
+  position: relative;
+  overflow: hidden;
+  transition: all 0.8s ease;
+}
+
+.Card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgb(3, 235, 243);
+}
+
+.card-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0.879);
+  color: white;
+}
+
+.Card:hover .card-content {
+  display: block;
+  transition: all 0.6s ease;
+  top: 0%;
+}
+
+.card-name {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+}
+.card-designation{
+    /* margin: 1%; */
+    font-size: 20px;
+}
+.card-details {
+  margin: 10px 0;
+  font-size: 0.9em;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.Card:hover .card-details {
+  visibility: visible;
+  opacity: 100;
+}
+
+.sci {
+  position: relative;
+  display: flex;
+  gap: 17px;
+  margin-top: 10px;
+  padding: 0;
+  margin: 0%;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.sci li a:hover {
+  background: #2196f3;
+}

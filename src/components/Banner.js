@@ -13,6 +13,7 @@ import TeamAnimated from "./TeamAnimated";
 import Vision from "./Vision";
 import Mentor from "./Mentor";
 import Club from "../components2/Club";
+import ClubLeaders from "../components2/ClubLeaders";
 // this file contain all the components
 
 function BannerTop(){
@@ -86,6 +87,7 @@ function Banner() {
         <Mentor />
         <TeamAnimated />
         <Club/>{" "}
+        <ClubLeaders />
       </div>
       <div id="ContactUs">
         <ContactUs />{" "}
