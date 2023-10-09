@@ -27,11 +27,11 @@
   color: white;
   max-height: 25vh;
   overflow: scroll;
-  scrollbar-width: thin; /* Firefox */
+  scrollbar-width: thin;
   scrollbar-color: transparent transparent;
 }
 .width2::-webkit-scrollbar {
-  width: 0rem; /* Adjust the width as needed */
+  width: 0rem; 
 }
 
 .width2::-webkit-scrollbar-thumb {
@@ -62,11 +62,11 @@
 }
 @media (max-width: 767px) {
   .visionContainer {
-    min-width: 90vw; /* Adjust the width for mobile */
-    margin: 10px; /* Adjust the margin for mobile */
+    min-width: 90vw; 
+    margin: 10px; 
   }
 
   .visionContainer .subContainer {
-    min-height: 15vh; /* Adjust the height for mobile */
+    min-height: 15vh;
   }
 }

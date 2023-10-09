@@ -12,7 +12,7 @@ function About() {
       <div className="AboutBody">
         <BannerTop />
         {/* Back component is coded in JoinUs */}
-        <Back color="transparent" />
+        <Back color="black" />
         <div className="AboutContainer flex flex-col items-center text-center white roboto">
           <span className="AboutHeading">
             <hr />

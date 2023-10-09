@@ -1,6 +1,11 @@
 .AboutBody{
-background: #000;
+/* background: #000; */
+background-color: rgba(5, 5, 248, 0.29);
+
  min-height: 100vh;   
+}
+.AboutContainer{
+    background-color: #000;
 }
 .AboutHeading{
     font-size: 60px;
