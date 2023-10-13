@@ -58,6 +58,7 @@ function Home() {
                     <span></span>
                     <span></span>
                     <span></span>
+                    <span></span>
                     {/* <span><p>C</p></span>
                     <span><p>O</p></span>
                     <span><p>A</p></span>
@@ -76,7 +77,6 @@ function Home() {
                     <span><p>A</p></span>
                     <span><p>D</p></span>
                     <span><p></p></span>
-                    <span></span>
                     <span></span>
                     <span></span>
                     <span><p style={{ color: 'black' }}>Programming</p></span>
