@@ -2,6 +2,7 @@ import React from "react";
 import "./TeamAnimated.css"; // Import your CSS file
 import tarun from "./imagesteam/1.jpg";
 import avinash from "../components2/images/AvinashRanjan.jpg";
+import vikash from "../components2/images/Vikash .jpg";
 import user from "../images/image2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -126,9 +127,9 @@ const teamData = [
   },
   {
     id: "content3",
-    name: "Member3",
+    name: "vikash",
     role: "Technical Lead",
-    imageSrc: user,
+    imageSrc: vikash,
     instagramLink: "#",
     linkedInLink: "#",
     githubLink: "#",
