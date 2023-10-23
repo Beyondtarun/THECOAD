@@ -84,6 +84,10 @@ body {
   width: 70px;
   height: auto;
 }
+.iic {
+  width: 50px;
+  height: 70px;
+}
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
