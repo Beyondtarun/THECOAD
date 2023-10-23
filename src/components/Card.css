@@ -2,8 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-left: 20px;
-  color: black;
+  /* margin-left: 20px; */
+  color: black;  
 }
 
 .Card {
@@ -11,8 +11,7 @@
   height: 350px;
   /* border: 1px solid #ccc; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.605);
-  margin: 10px;
-  
+  margin: 30px;
   position: relative;
   overflow: hidden;
   transition: all 0.8s ease;
@@ -51,11 +50,13 @@
   margin: 0;
   font-size: 1.2em;
   font-weight: bold;
-  font-style: italic;
+  /* font-style: italic; */
+  text-transform: uppercase;
 }
 .card-designation{
     /* margin: 1%; */
     font-size: 20px;
+    text-transform: uppercase;
 }
 .card-details {
   margin: 10px 0;

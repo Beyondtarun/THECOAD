@@ -36,7 +36,7 @@ function Joinus() {
     <>
       <div className="jointitle family">
         <Link to="/main">
-          <h1>THE COAD</h1>
+          <h1>THECOAD</h1>
         </Link>
         <h2 className="dancing">Programming Socitey Of BCIIT, DELHI</h2>
       </div>

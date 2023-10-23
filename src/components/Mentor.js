@@ -9,7 +9,7 @@ const Mentor = () => {
   return (
     <div className="facultymentors">
       <div className="flex justify-center">
-        <h1 className="text-center family font-bold" style={{fontSize:'40px'}}>MENTORS OF THE COAD</h1>
+        <h1 className="text-center family font-bold" style={{fontSize:'40px'}}>MENTORS OF THECOAD</h1>
       </div>
 
       <div className="flex justify-center justify-around">

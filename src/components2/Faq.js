@@ -11,7 +11,7 @@ const FaqBanner = () => {
     <>
       <div className="FaqBanner roboto">
         <Link to="/main">
-          <h1>THE COAD</h1>
+          <h1>THECOAD</h1>
         </Link>
         <h2 className="dancing" style={{ fontSize: "40px", marginTop: "5px" }}>
           Programming Socitey Of BCIIT, DELHI

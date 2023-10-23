@@ -10,7 +10,7 @@ const Footer = () => {
       <div className=" flex justify-even family white height1">
         <div className="flex items-center">
           <span className="smokewhite">
-            THE COAD is programming society of BCIIT Delhi established in Autumn of
+            THECOAD is programming society of BCIIT Delhi established in Autumn of
             2023.
             <br /> COAD motivate developers for:{" "}
             <ul>
@@ -102,7 +102,7 @@ const Footer = () => {
       <div className="flex">
         <div className="flex justify-center items-center width ">
           <h3 className="flex justify-center items-center foot1">
-            &copy; COADING CLUB 2023 | BCIIT, DELHI
+            &copy; THECOAD 2023 | BCIIT, DELHI
           </h3>
         </div>
         <div className="flex justify-center items-center width">

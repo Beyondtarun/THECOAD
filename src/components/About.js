@@ -16,7 +16,7 @@ function About() {
         <div className="AboutContainer flex flex-col items-center text-center white roboto">
           <span className="AboutHeading">
             <hr />
-            ABOUT - THE COAD<br/>
+            ABOUT - THECOAD<br/>
             <span className="dancing tagline">The Home of Experts in Coading Operations Alogoritms and Development.</span>
 
             <hr />
@@ -28,7 +28,7 @@ function About() {
 
             <div className="AboutContent-text family">
               The Programming Society of Banarsidas Chandiwala Institute of
-              Information Technology, known as THE COAD, stands as a beacon of
+              Information Technology, known as THECOAD, stands as a beacon of
               excellence and innovation within our academic community. Our
               society is deeply committed to nurturing a vibrant learning
               environment, where the primary focus lies in fostering technical
@@ -36,7 +36,7 @@ function About() {
               upskill these young minds, ensuring they are well-equipped to meet
               the challenges of the future. <br />
               <br />
-              At THE COAD, we recognize the importance of staying abreast of the
+              At THECOAD, we recognize the importance of staying abreast of the
               ever-evolving technology landscape. Through our meticulously
               crafted programs and initiatives, we strive to provide students
               with not only theoretical knowledge but also practical, hands-on
@@ -106,7 +106,7 @@ function About() {
                 </tr>
               </table><br/>
               <Link to="/joinus" style={{color:"blue"}}>Join us</Link>{" "}
-              at THE COAD, where we inspire and enable the next generation of
+              at THECOAD, where we inspire and enable the next generation of
               tech leaders. Together, we will continue to explore, innovate, and
               shape a future where technology knows no bounds.
             </div>

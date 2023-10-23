@@ -64,7 +64,7 @@ function Banner() {
         <div className=" container flex  justify-center items-center">
           <div className="subtitle family flex-col text-center white">
             <hr/>
-            <span>THE COAD</span><br/>
+            <span>THECOAD</span><br/>
             <span className="dancing tagline">The Home of Experts in Coading Operations Alogoritms and Development.</span><hr/>
 
             {/* <h1>COAD &#123; n log n &#125;</h1> */}

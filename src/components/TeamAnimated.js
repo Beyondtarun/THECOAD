@@ -1,6 +1,7 @@
 import React from "react";
 import "./TeamAnimated.css"; // Import your CSS file
 import tarun from "./imagesteam/1.jpg";
+import avinash from "../components2/images/AvinashRanjan.jpg";
 import user from "../images/image2.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -25,7 +26,7 @@ class TeamAnimated extends React.Component {
   render() {
     return (
       <div className="team">
-        <h1 className="teamTitle dancing white">Coordinators of THE COAD</h1>
+        <h1 className="teamTitle dancing white">Coordinators of THECOAD</h1>
         <div className="containerteam">
           <div className="icon">
             {teamData.map((member, index) => (
@@ -115,9 +116,9 @@ const teamData = [
   },
   {
     id: "content2",
-    name: "member2",
+    name: "Avinash",
     role: "Chief Strategist",
-    imageSrc: user,
+    imageSrc: avinash,
     instagramLink: "#",
     linkedInLink: "#",
     githubLink: "#",
