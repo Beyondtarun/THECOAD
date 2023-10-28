@@ -4,8 +4,9 @@ import "./util.css";
 import g20 from "../images/g20.jpg";
 import aicte from "../images/aicte.png";
 import university from "../images/univeristy.png";
-import clglogo from "../images/clg_logo1.png";
+import clglogo from "../images/BCIIT_LOGO_Blue.png";
 import iic from "../images/iic.png";
+import thecoad from "../images/THECOAD.png";
 // components
 import Footer from "./Footer";
 import ContactUs from "./ContactUs";
@@ -20,9 +21,12 @@ import ClubLeaders from "../components2/ClubLeaders";
 function BannerTop() {
   return (
     <>
-      <div class="topdiv flex  justify-between items-center bgwhite ">
+      <div class="topdiv flex bgwhite ">
         <div>
           <img className="clglogo" src={clglogo} alt="BCIIT"></img>
+        </div>
+        <div>
+          <img className="thecoad" src={thecoad} alt="thecoad"></img>
         </div>
         <div>
           <img className="ggsipu" src={university} alt="GGSIPU"></img>

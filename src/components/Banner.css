@@ -64,7 +64,9 @@ body {
   color: black;
   padding-left: 12px;
   padding-right: 12px;
+  justify-content: space-between;
   background-color: white;
+  align-items: center;
 }
 .headerimg {
   width: 100px;
@@ -72,8 +74,13 @@ body {
 }
 
 .clglogo {
-  width: 80px;
-  height: 80px;
+  width: 85px;
+  height: 70px;
+}
+.thecoad {
+  width: 75px;
+  height: 75px;
+  padding-top: 5px;
 }
 .ggsipu {
   width: 80px;
