@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import { Back } from "./Joinus";
 import faqicon from "./images/conversation.png";
 import ContactUs from "../components/ContactUs";
+// import thecoad from "../images/THECOAD.png";
 
 const FaqBanner = () => {
   return (

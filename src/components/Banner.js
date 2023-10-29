@@ -98,7 +98,8 @@ function Banner() {
       <div id="team">
         <Mentor />
         <TeamAnimated />
-        <Club /> <ClubLeaders />
+        <Club /> 
+        <ClubLeaders />
       </div>
       <div id="ContactUs">
         <ContactUs />{" "}

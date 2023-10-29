@@ -2,9 +2,10 @@ import React from "react";
 import "./About.css";
 import { BannerTop } from "./Banner";
 import { Back } from "../components2/Joinus";
-import AIHUMAN from "../components2/images/AIHUMAN.png";
+// import AIHUMAN from "../components2/images/AIHUMAN.png";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import thecoad from "../images/THECOAD.png";
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
           </span>
           <div className="AboutContent flex justify-even items-center">
             <div className="AboutImg">
-              <img src={AIHUMAN} alt="about"></img>
+              <img src={thecoad} alt="about"></img>
             </div>
 
             <div className="AboutContent-text family">

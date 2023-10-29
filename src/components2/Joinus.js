@@ -10,6 +10,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import symbol from "./images/symbol.png";
 import { Faq } from "./Faq";
 import Club from "./Club";
+
+
 function Back(props) {
   return (
     <div className="joinback" style={{background:props.color}}>
