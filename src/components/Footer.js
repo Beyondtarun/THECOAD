@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="flex-col footer-screen bg-black1 white family">
-      <div className=" flex justify-even family white height1">
+      <div className=" flex justify-even family white height1 subscreen">
         <div className="flex items-center">
           <span className="smokewhite">
             THECOAD is programming society of BCIIT Delhi established in Autumn of
