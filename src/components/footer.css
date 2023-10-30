@@ -38,7 +38,9 @@
   .copyright {
     width: 100%; /* Adjust width for mobile */
   }
-
+.subscreen{
+  flex-direction: column;
+}
   .footer-screen {
     min-width: auto; /* Remove min-width for mobile */
   }
