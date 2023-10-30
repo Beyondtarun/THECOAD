@@ -100,12 +100,12 @@ join::-webkit-scrollbar-track {
 } */
 
 .joinform {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
-.joinfrom iframe {
+.form1 {
   width: 35vw;
-  height: 75vh;
+  min-height: 75vw;
 }
 .joinsub p {
   margin-top: 10%;
@@ -133,4 +133,22 @@ join::-webkit-scrollbar-track {
 }
 .JoinFaq:hover{
   color: azure;
+}
+@media (max-width: 768px) {
+  .joincontainer {
+    flex-direction: column; /* Adjust width for mobile */
+    min-height: auto;
+    min-width: 100vw;
+    padding: 0;
+  }
+  .joinsub{
+    width: 90%;
+  }
+
+  .form1{
+    width: 90vw;
+  } 
+  .jointitle h2{
+    font-size: 1.5em;
+  }
 }

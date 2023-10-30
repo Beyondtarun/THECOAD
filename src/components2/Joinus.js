@@ -30,7 +30,7 @@ function Back(props) {
 function Joinus() {
   const [showFaq, setShowForm] = useState(false);
 
-  const toggleForm = () => {
+  const toggleFaq = () => {
     setShowForm(!showFaq);
   };
 
@@ -45,7 +45,7 @@ function Joinus() {
       <Back />
 
       <div className="joinus_body">
-        {/* <div className="Clubs border">cnocj</div> */}
+        
         <Club />
         <div className="joincontainer">
           <div className="joinsub">
@@ -71,9 +71,10 @@ function Joinus() {
             <div className="google-form-embed  joinfrom">
               <iframe
                 title="joinpage"
+                className="form1"
                 src="https://docs.google.com/forms/d/e/1FAIpQLSd7iezxvK2S_oaUncmDoHszNWoF0wpD5yIWDsE-qzZkJbTKuw/viewform?embedded=true"
                 frameborder="0"
-                marginheight="12"
+                marginheight="0"
                 marginwidth="0"
               >
                 Loading…
@@ -83,12 +84,13 @@ function Joinus() {
         </div>
       </div>
       <div>
+      
         <div className="joinfaqsection flex family">
           <h1>FAQ's</h1>
 
           <h1
             className="JoinFaq family"
-            onClick={toggleForm}
+            onClick={toggleFaq}
             style={{ cursor: "pointer" }}
           >
             Click Me
