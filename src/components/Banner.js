@@ -40,17 +40,16 @@ function BannerTop() {
         <div>
           <img className="aicte" src={aicte} alt="AICTE"></img>
         </div>
-       
       </div>
 
-      <div class="clgtitle justify-center flex-col family">
-        <div class=" kk mar-left font-bold flex items-center pad1">
+      <div class="clgtitle flex justify-center flex-col family">
+        <div class="font-bold flex justify-center items-center">
           <a href="https://www.bciit.ac.in/" target="new">
             BANARSIDAS CHANDIWALA INSTITUTE OF INFORMATION TECHNOLOGY
           </a>
         </div>
-
-        <div class=" mar-left font-bold justify-center flex items-center pad1 pad3">
+        <br />
+        <div class=" mar-left font-bold justify-center flex items-center">
           <a href="https://www.bciit.ac.in/" target="new">
             बनारसीदास चांदीवाला सूचना प्रौद्योगिकी संस्थान
           </a>
@@ -98,7 +97,7 @@ function Banner() {
       <div id="team">
         <Mentor />
         <TeamAnimated />
-        <Club /> 
+        <Club />
         <ClubLeaders />
       </div>
       <div id="ContactUs">
