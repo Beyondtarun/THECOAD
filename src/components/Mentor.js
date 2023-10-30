@@ -12,7 +12,7 @@ const Mentor = () => {
         <h1 className="text-center family font-bold" style={{fontSize:'40px'}}>MENTORS OF THECOAD</h1>
       </div>
 
-      <div className="flex justify-center justify-around">
+      <div className="flex justify-center justify-around subscreen">
         <div className="card flex">
           <div className="width1  imagediv flex justify-center items-center">
             <img className="memberimage" src={ravish} alt="member"></img>
