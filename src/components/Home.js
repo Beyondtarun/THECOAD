@@ -67,10 +67,11 @@ function Home() {
                     <span><p>log</p></span>
                     <span><p>n</p></span>
                     <span><p>&#125;</p></span> */}
+                    <span></span>
                     <span><p>T</p></span>
                     <span><p>H</p></span>
                     <span><p>E</p></span>
-                    <span><p></p></span>
+                    {/* <span><p></p></span> */}
                     <span><p>C</p></span>
                     <span><p>O</p></span>
                     <span><p>A</p></span>
