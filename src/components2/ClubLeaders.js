@@ -24,7 +24,7 @@ function ClubLeaders(){
           photo: abhishek,
           designation:"WebDev Lead",
           githubLink:"https://github.com/ShanksCodes",
-          linkedInLink:"",
+          linkedInLink:"https://twitter.com/AlasItsAbhi",
           instagramLink:"",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
@@ -60,7 +60,7 @@ function ClubLeaders(){
           instagramLink:"",
           linkedInLink:"https://www.linkedin.com/in/vikash-5928ab278/",
           githubLink:"https://github.com/SenSiiiE",
-          
+
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
