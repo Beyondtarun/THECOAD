@@ -33,7 +33,7 @@ function Home() {
     return (
         <div className='home'>
             {isMobile ? (<div id="mobile-message">
-                <p>Programmers have no job on phone.<br/> Use PC to open this site.
+                <p>You are programmer use PC not Phone.
                 </p>
             </div>) :
 

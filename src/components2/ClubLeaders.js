@@ -25,7 +25,7 @@ function ClubLeaders(){
           designation:"WebDev Lead",
           githubLink:"https://github.com/ShanksCodes",
           linkedInLink:"https://twitter.com/AlasItsAbhi",
-          instagramLink:"",
+          instagramLink:"#",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
@@ -43,7 +43,7 @@ function ClubLeaders(){
           designation:"AI/ML Lead",
           githubLink:"https://github.com/Hiteshwalia4",
           linkedInLink:"https://www.linkedin.com/in/hitesh-walia-b46775234/",
-          instagramLink:"",
+          instagramLink:"#",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
