@@ -21,7 +21,7 @@ const Mentor = () => {
             <sapn>
               <b>Prof (Dr.) Ravish Saggar</b>
               <br />
-              Head Of Institution
+              Head Of Institute
               <br />
               <b>BCIIT</b>
             </sapn>
