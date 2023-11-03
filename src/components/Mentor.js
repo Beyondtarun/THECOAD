@@ -21,9 +21,9 @@ const Mentor = () => {
             <sapn>
               <b>Prof (Dr.) Ravish Saggar</b>
               <br />
-              Director
+              Head Of Institution
               <br />
-              BCIIT
+              <b>BCIIT</b>
             </sapn>
           </div>
         </div>
@@ -33,11 +33,11 @@ const Mentor = () => {
           </div>
           <div className="width2  family">
             <sapn>
-              <b>Dr.Sushma Bahuguna</b>
+              <b>Dr. Sushma Bahuguna</b>
               <br />
-              Sr.Asst.Professor
+              President
               <br />
-              Department of MCA
+             <b>IIC-BCIIT</b> 
             </sapn>
           </div>
         </div>
@@ -49,9 +49,9 @@ const Mentor = () => {
             <sapn>
               <b>Ms.Sonia Batra</b>
               <br />
-              Asst.Professor
+              In-charge Innovation & Startup
               <br />
-              Department of MCA
+              <b>IIC-BCIIT</b>
             </sapn>
           </div>
         </div>
