@@ -14,12 +14,18 @@ function ClubLeaders(){
           name: "VIVEK PENULI",
           photo: vivek,
           designation:"AppDev Lead",
+          githubLink: "https://github.com/vivekpenuli",
+          instagramLink:"https://www.instagram.com/vivek_penuli_/",
+          linkedInLink:"",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
           name: "Abhishek Tyagi",
           photo: abhishek,
           designation:"WebDev Lead",
+          githubLink:"https://github.com/ShanksCodes",
+          linkedInLink:"",
+          instagramLink:"",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
@@ -35,18 +41,26 @@ function ClubLeaders(){
           name: "hitesh walia",
           photo: hitesh,
           designation:"AI/ML Lead",
+          githubLink:"https://github.com/Hiteshwalia4",
+          linkedInLink:"https://www.linkedin.com/in/hitesh-walia-b46775234/",
+          instagramLink:"",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
           name: "Arpita",
           photo: user,
           designation:"Python Lead",
+          linkedInLink:"",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
           name: "Vikash",
           photo: vikash,
           designation:"DSA Lead",
+          instagramLink:"",
+          linkedInLink:"https://www.linkedin.com/in/vikash-5928ab278/",
+          githubLink:"https://github.com/SenSiiiE",
+          
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
