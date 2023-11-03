@@ -18,7 +18,7 @@ function About() {
           <span className="AboutHeading">
             <hr />
             ABOUT - THECOAD<br/>
-            <span className="dancing tagline">The Home of Experts in Coading Operations Alogoritms and Development.</span>
+            <span className="dancing tagline">The Home of Experts in Coading Operations Alogoritms & Development.</span>
 
             <hr />
           </span>
@@ -30,7 +30,7 @@ function About() {
             <div className="AboutContent-text family">
               The Programming Society of Banarsidas Chandiwala Institute of
               Information Technology, known as THECOAD, stands as a beacon of
-              excellence and innovation within our academic community. Our
+              excellence and innovation within our academic community established under the <b>Institution's Innovation Council(IIC)</b>. Our
               society is deeply committed to nurturing a vibrant learning
               environment, where the primary focus lies in fostering technical
               knowledge among our students. Our mission is to empower and
@@ -70,7 +70,7 @@ function About() {
               <br />
               <table>
                 <tr>
-                  <td>Director:</td>
+                  <td>Head of Institute:</td>
                   <td>
                     <a
                       href="https://www.bciit.ac.in/director-profile.php"
@@ -82,7 +82,7 @@ function About() {
                   </td>
                 </tr>
                 <tr>
-                  <td>Facutly Advisor:</td>
+                  <td>President:</td>
                   <td>
                     <a
                       href="https://www.bciit.ac.in/member-profile-detail.php?faculty=1"
@@ -94,7 +94,7 @@ function About() {
                   </td>
                 </tr>
                 <tr>
-                  <td>Incharge:</td>
+                  <td>In-charge :<br/>Innovation & Startup</td>
                   <td>
                     <a
                       href="https://www.bciit.ac.in/member-profile-detail.php?faculty=6"

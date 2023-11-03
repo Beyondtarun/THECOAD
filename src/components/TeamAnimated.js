@@ -143,7 +143,7 @@ const teamData = [
     imageSrc: prachi,
     instagramLink: "https://www.instagram.com/prachiiii.sharmaa/",
     linkedInLink: "https://www.linkedin.com/in/prachisharmaps02/",
-    githubLink: "#",
+    githubLink: "https://github.com/prachisharma02",
     // youtubeLink: '#',
   },
   {
