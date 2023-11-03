@@ -4,6 +4,7 @@ import tarun from "./imagesteam/1.jpg";
 import avinash from "./imagesteam/avinash.jpeg";
 import user from "../images/image2.jpg";
 import prachi from "./imagesteam/prachi.jpg";
+import ritika from "./imagesteam/Ritika.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -149,7 +150,7 @@ const teamData = [
     id: "content5",
     name: "Ritika Malik",
     role: "Public Relation",
-    imageSrc: user,
+    imageSrc: ritika,
     instagramLink: "https://www.instagram.com/ritika_mallik09/",
     linkedInLink: "https://www.linkedin.com/in/ritika-mallik/",
     githubLink: "https://github.com/ritika0901",

@@ -7,6 +7,7 @@ import university from "../images/univeristy.png";
 import clglogo from "../images/BCIIT_LOGO_Blue.png";
 import iic from "../images/iic.png";
 import thecoad from "../images/THECOAD.png";
+
 // components
 import Footer from "./Footer";
 import ContactUs from "./ContactUs";
