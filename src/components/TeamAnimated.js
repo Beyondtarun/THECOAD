@@ -1,7 +1,7 @@
 import React from "react";
 import "./TeamAnimated.css"; // Import your CSS file
 import tarun from "./imagesteam/1.jpg";
-import avinash from "../components2/images/AvinashRanjan.jpg";
+import avinash from "./imagesteam/avinash.jpeg";
 import user from "../images/image2.jpg";
 import prachi from "./imagesteam/prachi.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -152,7 +152,7 @@ const teamData = [
     imageSrc: user,
     instagramLink: "https://www.instagram.com/ritika_mallik09/",
     linkedInLink: "https://www.linkedin.com/in/ritika-mallik/",
-    githubLink: "#",
+    githubLink: "https://github.com/ritika0901",
     // youtubeLink: '#',
   },
   {
