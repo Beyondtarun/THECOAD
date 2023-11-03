@@ -2,8 +2,8 @@ import React from "react";
 import "./TeamAnimated.css"; // Import your CSS file
 import tarun from "./imagesteam/1.jpg";
 import avinash from "../components2/images/AvinashRanjan.jpg";
-import vikash from "../components2/images/Vikash.jpg";
 import user from "../images/image2.jpg";
+import prachi from "./imagesteam/prachi.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -117,19 +117,19 @@ const teamData = [
   },
   {
     id: "content2",
-    name: "Avinash",
+    name: "Avinash Ranjan",
     role: "Chief Strategist",
     imageSrc: avinash,
-    instagramLink: "#",
-    linkedInLink: "#",
-    githubLink: "#",
+    instagramLink: "https://www.instagram.com/i_avinash77/",
+    linkedInLink: "https://www.linkedin.com/in/avinash-ranjan-0a58a516b/",
+    githubLink: "https://github.com/avinash-25",
     // youtubeLink: '#',
   },
   {
     id: "content3",
-    name: "vikash",
+    name: "user3",
     role: "Technical Lead",
-    imageSrc: vikash,
+    imageSrc: user,
     instagramLink: "#",
     linkedInLink: "#",
     githubLink: "#",
@@ -137,21 +137,21 @@ const teamData = [
   },
   {
     id: "content4",
-    name: "Member3",
+    name: "Prachi sharma",
     role: "Event Lead",
-    imageSrc: user,
-    instagramLink: "#",
-    linkedInLink: "#",
+    imageSrc: prachi,
+    instagramLink: "https://www.instagram.com/prachiiii.sharmaa/",
+    linkedInLink: "https://www.linkedin.com/in/prachisharmaps02/",
     githubLink: "#",
     // youtubeLink: '#',
   },
   {
     id: "content5",
-    name: "Member3",
+    name: "Ritika Malik",
     role: "Public Relation",
     imageSrc: user,
-    instagramLink: "#",
-    linkedInLink: "#",
+    instagramLink: "https://www.instagram.com/ritika_mallik09/",
+    linkedInLink: "https://www.linkedin.com/in/ritika-mallik/",
     githubLink: "#",
     // youtubeLink: '#',
   },
