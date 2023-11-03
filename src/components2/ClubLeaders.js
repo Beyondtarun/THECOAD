@@ -60,6 +60,7 @@ function ClubLeaders(){
           instagramLink:"",
           linkedInLink:"https://www.linkedin.com/in/vikash-5928ab278/",
           githubLink:"https://github.com/SenSiiiE",
+          instagramLink:"https://www.instagram.com/sensiiiee?igshid=YTQwZjQ0NmI0OA%3D%3D",
 
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
