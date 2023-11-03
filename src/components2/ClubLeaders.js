@@ -5,43 +5,48 @@ import vivek from "./images/VivekPenuli.jpg";
 import abhishek from "./images/AbhishekTyagi.jpg";
 import dhiraj from "./images/DhirajKumarPrasad.jpg";
 import hitesh from "./images/HiteshWalia.jpg";
+import vikash from "../components2/images/Vikash.jpg";
+
 
 function ClubLeaders(){
     const cardData = [
         {
           name: "VIVEK PENULI",
           photo: vivek,
-          designation:"Java Lead",
+          designation:"AppDev Lead",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
           name: "Abhishek Tyagi",
           photo: abhishek,
-          designation:"DSA Lead",
+          designation:"WebDev Lead",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
           name: "dhiraj kr. parsad",
           photo: dhiraj,
           designation:"WebDev Lead",
+          linkedInLink:"https://www.linkedin.com/in/dhiraj-prasad-1b931526b/",
+          instagramLink:"https://instagram.com/dhi_ra.j?igshid=OGQ5ZDc2ODk2ZA==",
+          githubLink:"https://github.com/Dhirajkrp",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
           name: "hitesh walia",
           photo: hitesh,
-          designation:"ai/ml Lead",
+          designation:"AI/ML Lead",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
-          name: "Club leader",
+          name: "Arpita",
           photo: user,
-          designation:"python",
+          designation:"Python Lead",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
-          name: "Club leader",
-          photo: user,
-          designation:"android",
+          name: "Vikash",
+          photo: vikash,
+          designation:"DSA Lead",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
