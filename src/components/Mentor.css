@@ -22,6 +22,7 @@
   box-shadow: 0 8px 16px 0 rgb(243, 243, 3);
   background-color: black;
   color: wheat;
+  transform: scale(1.08);
 }
 
 /* Styling for .card on smaller screens */
