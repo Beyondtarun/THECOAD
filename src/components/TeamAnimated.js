@@ -148,7 +148,7 @@ const teamData = [
   },
   {
     id: "content5",
-    name: "Ritika Malik",
+    name: "Ritika Mallik",
     role: "Public Relation",
     imageSrc: ritika,
     instagramLink: "https://www.instagram.com/ritika_mallik09/",
