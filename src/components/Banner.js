@@ -50,7 +50,7 @@ function BannerTop() {
           </a>
         </div>
         <br />
-        <div class=" mar-left font-bold justify-center flex items-center">
+        <div class=" mar-left font-bold justify-center flex items-center text-center">
           <a href="https://www.bciit.ac.in/" target="new">
             बनारसीदास चांदीवाला सूचना प्रौद्योगिकी संस्थान
           </a>
