@@ -1,6 +1,7 @@
 .mainbody {
   background-color: rgba(5, 5, 248, 0.29);
-  min-width: 100vw;  
+
+  width: 100vw;  
 }
 
 
