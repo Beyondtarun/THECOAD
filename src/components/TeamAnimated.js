@@ -139,7 +139,7 @@ const teamData = [
   {
     id: "content4",
     name: "Prachi sharma",
-    role: "Event Lead",
+    role: "Event Coordinator",
     imageSrc: prachi,
     instagramLink: "https://www.instagram.com/prachiiii.sharmaa/",
     linkedInLink: "https://www.linkedin.com/in/prachisharmaps02/",
