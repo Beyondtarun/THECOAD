@@ -5,12 +5,24 @@ import vivek from "./images/VivekPenuli.jpg";
 import abhishek from "./images/AbhishekTyagi.jpg";
 import dhiraj from "./images/DhirajKumarPrasad.jpg";
 import hitesh from "./images/HiteshWalia.jpg";
-import vikash from "../components2/images/Vikash.jpg";
+import vikash from "./images/Vikash.jpg";
+import arpita from "./images/Arpita.jpg";
 
 
 function ClubLeaders(){
     const cardData = [
+      {
+        name: "Vikash",
+        photo: vikash,
+        designation:"DSA Lead",
+        linkedInLink:"https://www.linkedin.com/in/vikash-5928ab278/",
+        githubLink:"https://github.com/SenSiiiE",
+        instagramLink:"https://www.instagram.com/sensiiiee?igshid=YTQwZjQ0NmI0OA%3D%3D",
+        details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
+      },
         {
+
+          
           name: "VIVEK PENULI",
           photo: vivek,
           designation:"AppDev Lead",
@@ -47,21 +59,15 @@ function ClubLeaders(){
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         {
-          name: "Arpita",
-          photo: user,
+          name: "Arpita sharma",
+          photo: arpita,
           designation:"Python Lead",
-          linkedInLink:"",
+          linkedInLink:"https://www.linkedin.com/in/arpita--sharma/",
+          instagramLink:"https://www.instagram.com/airpitasharma/",
+          githubLink:"https://github.com/as0808",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
-        {
-          name: "Vikash",
-          photo: vikash,
-          designation:"DSA Lead",
-          linkedInLink:"https://www.linkedin.com/in/vikash-5928ab278/",
-          githubLink:"https://github.com/SenSiiiE",
-          instagramLink:"https://www.instagram.com/sensiiiee?igshid=YTQwZjQ0NmI0OA%3D%3D",
-          details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
-        },
+        
         {
           name: "Club leader",
           photo: user,
