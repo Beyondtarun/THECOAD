@@ -44,7 +44,7 @@ function BannerTop() {
       </div>
 
       <div class="clgtitle flex justify-center flex-col family">
-        <div class="font-bold flex justify-center items-center">
+        <div class="font-bold flex justify-center items-center text-center">
           <a href="https://www.bciit.ac.in/" target="new">
             BANARSIDAS CHANDIWALA INSTITUTE OF INFORMATION TECHNOLOGY
           </a>
