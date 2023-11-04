@@ -82,8 +82,8 @@ function Banner() {
             {/* <h1>COAD &#123; n log n &#125;</h1> */}
 
             <p className="tagline2">
-              "THECOAD is the Programming society of BCIIT setup under the <br/>INSTITUTION INNOVATION COUNCIL (IIC)
-              <br /> Our Aim is to foster technical knowledge among students and
+              "THECOAD is the Programming society of BCIIT setup under the <br/>INSTITUTION's INNOVATION COUNCIL (IIC).
+              <br /><br /> Our Aim is to foster technical knowledge among students and
               prepare them for future endeavours."
             </p>
           </div>
