@@ -19,14 +19,15 @@ const Mentor = () => {
         </h1>
       </div>
 
-      <div className="flex justify-center justify-around subscreen">
-        <div className="card flex">
-          <div className="width1  imagediv flex justify-center items-center">
+      <div className="flex subcreen justify-even wrap">
+        {/* <div className="subscree"> */}
+        <div className="card flex item1">
+          <div className="width1  imagediv">
             <img className="memberimage" src={ravish} alt="member"></img>
           </div>
           <div className="width2  family">
             <sapn>
-              <b>Prof(Dr.) Ravish Saggar</b>
+              <b>Prof.(Dr.) Ravish Saggar</b>
               <br />
               Head Of Institute
               <br />
@@ -38,7 +39,7 @@ const Mentor = () => {
             </sapn>
           </div>
         </div>
-        <div className=" card flex justify-center">
+        <div className=" card flex">
           <div className="width1  imagediv">
             <img className="memberimage" src={sushma} alt="member"></img>
           </div>
@@ -55,8 +56,8 @@ const Mentor = () => {
             </sapn>
           </div>
         </div>
-        <div className="card flex  justify-center">
-          <div className="width1  imagediv flex justify-center items-center">
+        <div className="card flex">
+          <div className="width1  imagediv flex">
             <img className="memberimage" src={sonia} alt="member"></img>
           </div>
           <div className="width2  family">
@@ -65,7 +66,8 @@ const Mentor = () => {
               <br />
               In-charge Innovation & Startup
               <br />
-              <b>IIC-BCIIT</b><br />
+              <b>IIC-BCIIT</b>
+              <br />
               <a href="mailto:sonia@bciit.ac.in" rel="noreferrer">
                 <FontAwesomeIcon icon={faEnvelope} />
               </a>

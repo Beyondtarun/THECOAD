@@ -100,6 +100,9 @@
 .mar-left {
   margin-left: 10px;
 }
+.wrap{
+  flex-wrap: wrap;
+}
 
 /* .pad1 {
   padding: 24px;

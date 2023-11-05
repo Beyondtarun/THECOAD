@@ -67,7 +67,7 @@ function About() {
                 <li>Android</li>
               </ul>
               <br />
-              Guiding Lights of THE COAD:
+              Guiding Lights of THECOAD:
               <br />
               <br />
               <table>
