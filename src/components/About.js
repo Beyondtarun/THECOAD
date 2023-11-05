@@ -2,6 +2,8 @@ import React from "react";
 import "./About.css";
 import { BannerTop } from "./Banner";
 import { Back } from "../components2/Joinus";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 // import AIHUMAN from "../components2/images/AIHUMAN.png";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
@@ -77,8 +79,14 @@ function About() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Prof (Dr.) Ravish Saggar
+                      Prof. (Dr.) Ravish Saggar 
                     </a>
+              
+                  </td>
+                  <td>
+                  <a href="mailto:director@bciit.ac.in" rel="noreferrer">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
                   </td>
                 </tr>
                 <tr>
@@ -92,6 +100,11 @@ function About() {
                       Dr. Sushma Bahuguna
                     </a>
                   </td>
+                  <td>
+                  <a href="mailto:sushma@bciit.ac.in" rel="noreferrer">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
+                  </td>
                 </tr>
                 <tr>
                   <td>In-charge :<br/>Innovation & Startup</td>
@@ -103,6 +116,11 @@ function About() {
                     >
                       Ms. Sonia Batra
                     </a>
+                  </td>
+                  <td>
+                  <a href="mailto:sonia@bciit.ac.in" rel="noreferrer">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </a>
                   </td>
                 </tr>
               </table><br/>
