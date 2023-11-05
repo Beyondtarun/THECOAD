@@ -14,7 +14,7 @@ const Footer = () => {
             2023.
             <br /> COAD motivate developers for:{" "}
             <ul>
-              <li>Clean Coading</li>
+              <li>Clean Coding</li>
               <li>Object Oriented Programming</li>
               <li>Alogrithms</li>
               <li>Data Structures</li>
