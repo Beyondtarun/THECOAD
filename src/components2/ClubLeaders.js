@@ -72,7 +72,7 @@ function ClubLeaders(){
         {
           name: "bhavya rawat",
           photo: bhavya,
-          designation:"c++",
+          designation:"C++ Lead",
           instagramLink:"https://instagram.com/bhavyaa.rawat?igshid=NnhydDVvMHJmMmd3",
           linkedInLink:"https://www.linkedin.com/in/bhavya-rawat-1760831aa/",
           githubLink:"https://github.com/bhavsu23",
