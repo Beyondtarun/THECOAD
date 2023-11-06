@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../components/Card";
-import user from "../images/image2.jpg";
+// import user from "../images/image2.jpg";
 import vivek from "./images/VivekPenuli.jpg";
 import abhishek from "./images/AbhishekTyagi.jpg";
 import dhiraj from "./images/DhirajKumarPrasad.jpg";

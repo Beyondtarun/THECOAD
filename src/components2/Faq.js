@@ -10,18 +10,18 @@ import ContactUs from "../components/ContactUs";
 const FaqBanner = () => {
   return (
     <>
-      <div className="FaqBanner roboto">
+      <div className="jointitle family">
         <Link to="/main">
           <h1>THECOAD</h1>
         </Link>
         <h2 className="dancing" style={{ fontSize: "40px", marginTop: "5px" }}>
           Programming Socitey Of BCIIT, DELHI
         </h2>
-
-        <h2 className="dancing"> FAQs</h2>
+        <Back color="transparent"/>
+        <h2 className="dancing" style={{color:"highlight", fontSize:"75px"}}> FAQs</h2>
       </div>
       {/* Back component availble in Joinus.js */}
-      <Back />
+      
     </>
   );
 };

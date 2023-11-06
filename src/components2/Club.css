@@ -2,6 +2,7 @@
   min-height: 50vh;
   width: 100vw;
   background: transparent;
+
 }
 .ClubHeading {
   margin-top: 10px;
@@ -27,7 +28,7 @@
 .ClubLogos{
     flex-direction: column;
     overflow:auto;
-    min-height: 50vh;
+    height: 50vh;
 }
 
 

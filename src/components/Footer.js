@@ -10,8 +10,8 @@ const Footer = () => {
       <div className=" flex justify-even family white height1 subscreen">
         <div className="flex items-center">
           <span className="smokewhite">
-            THECOAD is programming society of BCIIT Delhi established in Autumn of
-            2023.
+            THECOAD is programming society of BCIIT Delhi established in Autumn
+            of 2023.
             <br /> COAD motivate developers for:{" "}
             <ul>
               <li>Clean Coding</li>
@@ -19,7 +19,10 @@ const Footer = () => {
               <li>Alogrithms</li>
               <li>Data Structures</li>
             </ul>{" "}
-            <p style={{color:"#0E9700"}}>*Images used above are for representational purpose we claim no copyright.</p>
+            <p style={{ color: "#0E9700" }}>
+              *Images used above are for representational purpose we claim no
+              copyright.
+            </p>
           </span>
         </div>
         <div>
@@ -37,14 +40,14 @@ const Footer = () => {
             <br />
             <li>
               <a
-                Href="https://www.bciit.ac.in/mca.php"
+                href="https://www.bciit.ac.in/mca.php"
                 target="_blank"
                 rel="noreferrer"
               >
                 MCA
               </a>
             </li>
-            <br/>
+            <br />
             <li>
               <Link to="/main">Main Website</Link>
             </li>
@@ -70,7 +73,6 @@ const Footer = () => {
                 BCIIT Website
               </a>
             </li>
-           
           </ul>
         </div>
 
@@ -92,7 +94,12 @@ const Footer = () => {
           </a>
           <br />
           <br />
-          <a href="https://www.bciit.ac.in/" target="_blank" className="discord" rel="noreferrer">
+          <a
+            href="https://www.bciit.ac.in/"
+            target="_blank"
+            className="discord"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faDiscord} /> Join on Discord
           </a>
         </div>

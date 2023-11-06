@@ -1,12 +1,49 @@
 .GalleryBody {
-    min-height: 60vh;
-    background-color: rgba(68, 171, 236, 0.685);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .GalleryBody span{
-      font-size: 60px;
-  }
-  
+  min-height: 60vh;
+  background-color: rgba(68, 171, 236, 0.685);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.GalleryTable {
+  font-size: 30px;
+  font-family: Roboto;
+  min-width: 50%;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.GalleryBody h2{
+  margin-top: 0%;
+  font-size: 75px;
+  color: highlight;
+}
+.GalleryTable table {
+  /* border: 4px solid black; */
+  border-radius: 15px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  color: white;
+  background-color: rgb(1, 16, 28);
+  overflow: hidden;
+}
+.GalleryTable td,
+th {
+  text-wrap: wrap;
+}
+.GalleryTable th{
+  background-color: gainsboro;
+  color: rgb(4, 4, 43);
+  font-weight: bolder;
+}
+
+.GalleryTable a {
+  color: blue;
+}
+
+.GalleryTable a:hover {
+  color: yellow;
+}

@@ -19,9 +19,12 @@ function About() {
         <div className="AboutContainer flex flex-col items-center text-center white roboto">
           <span className="AboutHeading">
             <hr />
-            ABOUT - THECOAD<br/>
-            <span className="dancing tagline">The Home of Experts in Coading Operations Alogoritms & Development.</span>
-
+            ABOUT - THECOAD
+            <br />
+            <span className="dancing tagline">
+              The Home of Experts in Coading Operations Alogoritms &
+              Development.
+            </span>
             <hr />
           </span>
           <div className="AboutContent flex justify-even items-center">
@@ -32,8 +35,9 @@ function About() {
             <div className="AboutContent-text family">
               The Programming Society of Banarsidas Chandiwala Institute of
               Information Technology, known as THECOAD, stands as a beacon of
-              excellence and innovation within our academic community established under the <b>Institution's Innovation Council(IIC)</b>. Our
-              society is deeply committed to nurturing a vibrant learning
+              excellence and innovation within our academic community
+              established under the <b>Institution's Innovation Council(IIC)</b>
+              . Our society is deeply committed to nurturing a vibrant learning
               environment, where the primary focus lies in fostering technical
               knowledge among our students. Our mission is to empower and
               upskill these young minds, ensuring they are well-equipped to meet
@@ -79,14 +83,13 @@ function About() {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Prof. (Dr.) Ravish Saggar 
+                      Prof. (Dr.) Ravish Saggar
                     </a>
-              
                   </td>
                   <td>
-                  <a href="mailto:director@bciit.ac.in" rel="noreferrer">
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
+                    <a href="mailto:director@bciit.ac.in" rel="noreferrer">
+                      <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
                   </td>
                 </tr>
                 <tr>
@@ -101,13 +104,16 @@ function About() {
                     </a>
                   </td>
                   <td>
-                  <a href="mailto:sushma@bciit.ac.in" rel="noreferrer">
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
+                    <a href="mailto:sushma@bciit.ac.in" rel="noreferrer">
+                      <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
                   </td>
                 </tr>
                 <tr>
-                  <td>In-charge :<br/>Innovation & Startup</td>
+                  <td>
+                    In-charge :<br />
+                    Innovation & Startup
+                  </td>
                   <td>
                     <a
                       href="https://www.bciit.ac.in/member-profile-detail.php?faculty=6"
@@ -118,13 +124,20 @@ function About() {
                     </a>
                   </td>
                   <td>
-                  <a href="mailto:sonia@bciit.ac.in" rel="noreferrer">
-                <FontAwesomeIcon icon={faEnvelope} />
-              </a>
+                    <a href="mailto:sonia@bciit.ac.in" rel="noreferrer">
+                      <FontAwesomeIcon icon={faEnvelope} />
+                    </a>
                   </td>
                 </tr>
-              </table><br/>
-              <Link to="/joinus" style={{color:"blue"}}>Join us</Link>{" "}
+              </table>
+              <br />
+              <Link
+                to="/joinus"
+                style={{ fontSize: "38px" }}
+                className="dancing"
+              >
+                Join us
+              </Link>{" "}
               at THECOAD, where we inspire and enable the next generation of
               tech leaders. Together, we will continue to explore, innovate, and
               shape a future where technology knows no bounds.

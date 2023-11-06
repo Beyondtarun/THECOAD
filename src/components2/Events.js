@@ -4,45 +4,35 @@ import { Back } from "./Joinus";
 import "./Events.css";
 import Footer from "../components/Footer";
 // import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // import con from "./images/conversation.png";
 
 function Events() {
   return (
     <>
-      <div className="FaqBanner roboto">
+      <div className="jointitle family">
         <Link to="/main">
           <h1>THECOAD</h1>
         </Link>
         <h2 className="dancing" style={{ fontSize: "40px", marginTop: "5px" }}>
           Programming Socitey Of BCIIT, DELHI
         </h2>
-
-        <h2
-          className="dancing"
-          style={{ color: "Highlight", fontWeight: "bolder" }}
-        >
-          {" "}
-          Events
-        </h2>
+        <Back color="transparent" />
       </div>
       {/* Back component availble in Joinus.js */}
-      <Back />
+
       <div className="EventBody">
+        <h2 className="dancing">Events</h2>
         <div>
-            <span className="dancing">Coming soon....</span>
-            {/* <EventPage /> */}
+          <span className="dancing">Coming soon....</span>
+          {/* <EventPage /> */}
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
-
-
-
-
 
 // const eventsData = [
 //   {
@@ -83,5 +73,3 @@ function Events() {
 // };
 // export {EventPage};
 export default Events;
-
-

@@ -1,20 +1,18 @@
 import React from "react";
 import { useState } from "react";
-
 import "./Joinus.css";
 import Footer from "../components/Footer";
 import "../components/util.css";
 import { Link } from "react-router-dom";
 import { faBackward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import symbol from "./images/symbol.png";
 import { Faq } from "./Faq";
 import Club from "./Club";
-
+import thecoad from "../images/THECOAD.png";
 
 function Back(props) {
   return (
-    <div className="joinback" style={{background:props.color}}>
+    <div className="joinback" style={{ background: props.color }}>
       <Link to="/main">
         <p>
           <FontAwesomeIcon
@@ -45,26 +43,26 @@ function Joinus() {
       <Back />
 
       <div className="joinus_body">
-        
         <Club />
         <div className="joincontainer">
           <div className="joinsub">
-            <h1> Join Us</h1>
-
-            <img className="arrowSymbol" src={symbol} alt="arrow"></img>
+            <img className="SocietySymbol" src={thecoad} alt="arrow"></img>
             <p>
-              Hi developer, join COAD to enhance your skills and get a
-              un-matched experience. <h2>Welcome to Our Coding Club!</h2> Are
-              you passionate about coding and eager to learn, collaborate, and
-              innovate with like-minded individuals? Look no further! Our Coding
-              Club is a vibrant community of programmers, developers, and tech
-              enthusiasts dedicated to honing their coding skills and exploring
-              the exciting world of technology.
+              Hi developer, join THECOAD to enhance your skills and get a
+              un-matched experience.{" "}
+              <h2>Welcome to Our Programming Society!</h2> Are you passionate
+              about coding and eager to learn, collaborate, and innovate with
+              like-minded individuals? Look no further! THECOAD is a vibrant
+              community of programmers, developers, and tech enthusiasts
+              dedicated to honing their coding skills and exploring the exciting
+              world of technology.
               <br />
               <br />
               <br />
               You will get a whatsapp group join link after form submission. Pls
               click on it and join our group to stay update.
+              <br></br>
+              <Link to="/about">Read more....</Link>
             </p>
           </div>
           <div className="joinsub">
@@ -84,7 +82,6 @@ function Joinus() {
         </div>
       </div>
       <div>
-      
         <div className="joinfaqsection flex family">
           <h1>FAQ's</h1>
 
