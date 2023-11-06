@@ -7,6 +7,7 @@ import dhiraj from "./images/DhirajKumarPrasad.jpg";
 import hitesh from "./images/HiteshWalia.jpg";
 import vikash from "./images/Vikash.jpg";
 import arpita from "./images/Arpita.jpg";
+import bhavya from "./images/bhavya.jpg";
 
 
 function ClubLeaders(){
@@ -69,9 +70,12 @@ function ClubLeaders(){
         },
         
         {
-          name: "Club leader",
-          photo: user,
+          name: "bhavya rawat",
+          photo: bhavya,
           designation:"c++",
+          instagramLink:"https://instagram.com/bhavyaa.rawat?igshid=NnhydDVvMHJmMmd3",
+          linkedInLink:"https://www.linkedin.com/in/bhavya-rawat-1760831aa/",
+          githubLink:"https://github.com/bhavsu23",
           details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod, purus ut cursus sagittis, odio odio consequat ipsum."
         },
         
