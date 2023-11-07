@@ -58,10 +58,10 @@ class TeamAnimated extends React.Component {
                   <div className="imgBx">
                     <img src={member.imageSrc} alt="" />
                   </div>
-                  <div className="textBx family">
-                    <h2>
+                  <div className="textBx roboto">
+                    <h2 style={{color:"#953553"}}>
                       {member.name}
-                      <br />
+                      <br /><hr/>
                       <span>{member.role}</span>
                     </h2>
                     <ul className="sci">
