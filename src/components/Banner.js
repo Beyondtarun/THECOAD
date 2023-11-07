@@ -74,7 +74,7 @@ function Banner() {
             <span>THECOAD</span>
             <br />
             <span className="dancing tagline">
-              The Home of Experts in Coading Operations Alogoritms &
+              The Home of Experts in Coding Operations Algorithms &
               Development.
             </span>
             <hr />
