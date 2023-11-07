@@ -66,7 +66,7 @@ function About() {
                 <li>JAVA</li>
                 <li>Data Structures and Algorithms</li>
                 <li>AL/ML</li>
-                <li>Pyhton</li>
+                <li>Python</li>
                 <li>Web Development</li>
                 <li>Android</li>
               </ul>
