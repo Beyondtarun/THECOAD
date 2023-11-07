@@ -27,7 +27,7 @@ function About() {
             </span>
             <hr />
           </span>
-          <div className="AboutContent flex justify-even items-center">
+          <div className="AboutContent flex justify-even items-center wrap">
             <div className="AboutImg">
               <img src={thecoad} alt="about"></img>
             </div>

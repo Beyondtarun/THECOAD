@@ -2,7 +2,9 @@
 /* background: #000; */
 background-color: rgba(5, 5, 248, 0.29);
 
- min-height: 100vh;   
+ min-height: 100vh;  
+ overflow-x: hidden;
+ /* scroll-behavior-x: hidden ;  */
 }
 .AboutContainer{
     background-color: black;
@@ -18,14 +20,16 @@ background-color: rgba(5, 5, 248, 0.29);
 }
 .AboutContent-text{
     width: 50vw;
-    word-wrap: break-word;
+    /* word-wrap: break-word; */
     font-size: 22px;
     text-align: justify;
+    text-wrap: wrap;
 }
 .AboutImg{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     overflow: hidden;
+
 }
 .AboutImg img{
     height: 100%;
@@ -40,4 +44,19 @@ background-color: rgba(5, 5, 248, 0.29);
 }
 td, th {
     padding: 10px; /* Adjust the padding value according to your needs */
+}
+
+@media (max-width: 768px) {
+    .AboutImg{
+        height: 200px;
+width: 200px;
+
+    }
+    .AboutImg img{
+height: 150px;
+width: 150px;
+    }
+    .AboutContent-text{
+        width: 90vw;
+    }
 }
