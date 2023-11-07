@@ -19,15 +19,25 @@
 
 .visionContainer .width1 {
   width: 30%;
+  min-height: 25vh;
 }
 .visionContainer .width2 {
   width: 70%;
   padding: 10px;
+  padding-top: 0px;
   color: white;
-  height: 25vh;
-  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  height: 20vh;
+  /* overflow: scroll; */
+  overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
+}
+
+.visionContainer .width2 h2{
+  margin-top: 0%;
 }
 .width2::-webkit-scrollbar {
   width: 0rem; 

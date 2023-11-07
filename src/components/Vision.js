@@ -80,8 +80,8 @@ function Vision() {
             ></img>
           </div>
           <div className="width2 roboto">
-            <p>
-              <h2 style={{ color: "#03ffff" }}>Object Oriented programming</h2>
+            
+              <h2 style={{ color: "#03ffff" }}>Object Oriented programming</h2><p>
               "To pioneer a programming paradigm where software development is
               an art of modeling the real world, fostering modularity,
               encapsulation, and reusability. We envision an OOP landscape that
