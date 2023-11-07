@@ -74,11 +74,7 @@ const GalleryData = [
     eventname: "dummy",
     Link: "dummy",
   },
-  {
-    date: "dd-mm-yyyy",
-    eventname: "dummy",
-    Link: "dummy",
-  },
+  
   // add more data
 ];
 
