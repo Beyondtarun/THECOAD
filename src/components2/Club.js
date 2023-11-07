@@ -10,7 +10,7 @@ import android from "./images/android.png";
 function Club() {
   return (
     <div className="ClubBody flex flex-col items-center">
-      <span className="ClubHeading family">Clubs of THECOAD</span>
+      <span className="ClubHeading family text-center">Clubs of THECOAD</span>
       <div className="ClubLogos flex items-center justify-between">
         <span
           style={{

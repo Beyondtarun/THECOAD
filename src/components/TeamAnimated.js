@@ -28,7 +28,7 @@ class TeamAnimated extends React.Component {
   render() {
     return (
       <div className="team">
-        <h1 className="teamTitle dancing white">Coordinators of THECOAD</h1>
+        <h1 className="teamTitle dancing white text-center">Coordinators of THECOAD</h1>
         <div className="containerteam">
           <div className="icon">
             {teamData.map((member, index) => (

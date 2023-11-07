@@ -62,17 +62,17 @@
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
-  .width1{
+  /* .width1{
     width: 100%;
-    height: auto; /* Expand to full width on smaller screens */
-    margin: 0;
+    height: auto; 
+        margin: 0;
     padding:0;
   }
   .width2{
     padding: 10px;
     width: 100%;
     height: auto;
-  }
+  } */
   .card {
     height: auto;
     overflow: hidden;
