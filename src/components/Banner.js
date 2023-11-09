@@ -1,4 +1,5 @@
 import React from "react";
+import 'animate.css';
 import "./Banner.css";
 import "./util.css";
 import g20 from "../images/g20.jpg";
@@ -69,14 +70,14 @@ function Banner() {
         <Navbar />
 
         <div className=" container flex  justify-center items-center">
-          <div className="subtitle family flex-col text-center white">
+          <div className="subtitle family flex-col text-center white  ">
             <hr />
-            <span>THECOAD</span>
-            <br />
-            <span className="dancing tagline">
+            <div className="animate__animated animate__zoomIn"><span>THECOAD</span></div>
+            <div><span className="dancing tagline">
               The Home of Experts in Coding Operations Algorithms &
               Development.
-            </span>
+            </span></div>
+            
             <hr />
 
             {/* <h1>COAD &#123; n log n &#125;</h1> */}

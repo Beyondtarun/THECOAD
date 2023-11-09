@@ -1,5 +1,7 @@
 import React from "react";
+
 import "./Vision.css";
+
 import cleancoading from "../images/cleancoding.jpg";
 import digital from "../images/digital.jpg";
 import oops from "../images/oops.webp";
@@ -73,11 +75,7 @@ function Vision() {
 
         <div className="subContainer flex items-center">
           <div className="width1 imagdiv">
-            <img
-              className="visionImage1"
-              src={oops}
-              alt="clean coading"
-            ></img>
+            <img className="visionImage1" src={oops} alt="clean coading"></img>
           </div>
           <div className="width2 roboto">
             <p>
@@ -94,21 +92,16 @@ function Vision() {
         <div className="subContainer flex item-center">
           <div className="width2 roboto">
             <p>
-              <h2 style={{ color: "#03ffff" }}>
-                Data Structures & Algorithms
-              </h2>
-              Empowering innovation through essential Data Structures and Algorithms expertise.<br>
-              </br> From Arrays to Red-Black Tree optimizing Time & Space complexities.
+              <h2 style={{ color: "#03ffff" }}>Data Structures & Algorithms</h2>
+              Empowering innovation through essential Data Structures and
+              Algorithms expertise.<br></br> From Arrays to Red-Black Tree
+              optimizing Time & Space complexities.
             </p>
           </div>
 
           <div className="width1 imagdiv">
             {" "}
-            <img
-              className="visionImage2"
-              src={data}
-              alt="clean coading"
-            ></img>
+            <img className="visionImage2" src={data} alt="clean coading"></img>
           </div>
         </div>
       </div>

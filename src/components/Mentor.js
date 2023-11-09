@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import "./util.css";
 import "./Mentor.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,6 +9,7 @@ import sonia from "../images/sonia.jpg";
 import ravish from "../images/ravish.jpg";
 
 const Mentor = () => {
+
   return (
     <div className="facultymentors">
       <div className="flex justify-center">
@@ -19,7 +21,7 @@ const Mentor = () => {
         </h1>
       </div>
 
-      <div className="flex subcreen justify-even wrap">
+      <div className="flex subscreen justify-even wrap ">
         {/* <div className="subscree"> */}
         <div className="card flex item1">
           <div className="width1  imagediv">
