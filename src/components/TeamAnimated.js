@@ -108,7 +108,7 @@ const teamData = [
   {
     id: "content1",
     name: "Tarun Goyal",
-    role: "Software Dev",
+    role: "Chief Coordinator",
     imageSrc: tarun,
     instagramLink: "https://www.instagram.com/beyondtarun/",
     linkedInLink: "https://www.linkedin.com/in/beyondtarun/",
